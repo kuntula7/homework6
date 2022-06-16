@@ -1,0 +1,1 @@
+(()=>{"use strict";let r=new class{constructor(...r){return this.args=r,this.length=r.length}arrLength(...r){return this.args.push(...r)}arrPop(r,s){return 0==this.args.length?"undefined":this.args.splice(r,s)}arrPush(r){return this.args.push(r),this.args}}("ana","nino","gela","bacho");console.log(r.arrPush("bla"))})();
